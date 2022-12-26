@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Noto+Sans:wght@300&family=Overpass:ital@1&display=swap');
+
+:root {
+  --dark: #442843;
+  --light: #f4f4f4;
+  --primary-color: #6c3c68;
+  --secondary-color: #ffd54a;
+  --tertiary-color: #ff955d;
+
+  --title: 'Lato', sans-serif;
+  --sub-title: 'Noto Sans', sans-serif;
+  --text: 'Overpass', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-family: var(--title);
+}
+
+h2, h3, h4, h5 {
+  font-family: var(--sub-title);
+}
+
+p {
+  font-family: var(--text)
+}

@@ -1,6 +1,6 @@
 .intro-section-home {
-  background-color: var(--dark);
-  background-image: url();
+  display: flex;
+  height: 70vh;
 }
 
 .text-highlight {

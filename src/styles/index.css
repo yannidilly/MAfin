@@ -27,6 +27,6 @@ h2, h3, h4, h5 {
   font-family: var(--sub-title);
 }
 
-p {
+p, a, button {
   font-family: var(--text)
 }

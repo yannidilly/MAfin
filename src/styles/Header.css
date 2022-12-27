@@ -1,8 +1,25 @@
 .header-div {
-  border: 1px solid red;
+  background-color: var(--dark);
   display: flex;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
 .logo-image-header {
-  width: 15vh;
+  height: 12vh;
+}
+
+.nav-header {
+  align-items: center;
+  display: flex;
+  justify-content: end;
+  width: 65%;
+}
+
+.nav-header a {
+  color: var(--light);
+  text-decoration: none;
+  padding: 0 60px;
 }

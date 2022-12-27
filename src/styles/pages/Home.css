@@ -1,3 +1,8 @@
+.intro-section-home {
+  background-color: var(--dark);
+  background-image: url();
+}
+
 .text-highlight {
   color: var(--tertiary-color);
 }

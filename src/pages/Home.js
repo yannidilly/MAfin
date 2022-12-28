@@ -26,7 +26,7 @@ function Home() {
         <h2>Sobre mim</h2>
         <div className="about-section-content-div">
           <img alt="Michelle Abritta palestrando" src={ PhotoLecture } />
-          <div className="text-div">
+          <div className="about-section-content-text-div">
             <p>
               Eu sempre gostei de ajudar empreendedoras no início de suas empresas e, como sou uma empreendedora desde muito nova, sei da importância da organização financeira.
             </p>

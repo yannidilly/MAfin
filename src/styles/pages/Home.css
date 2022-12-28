@@ -1,7 +1,7 @@
 .intro-section-home {
+  align-items: flex-end;
   display: flex;
-  justify-content: center;
-  padding-top: 2rem;
+  justify-content: space-around;
 }
 
 .text-highlight {
@@ -9,9 +9,10 @@
 }
 
 .intro-text {
+  align-self: center;
   display: flex;
   flex-direction: column;
-  justify-content: end;
+  justify-content: center;
   width: 50%;
 }
 
@@ -20,7 +21,8 @@
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: 150%;
-  height: 25rem;
+  padding-top: 2rem;
+  height: 40vw;
 }
 
 .about-section {

@@ -35,5 +35,5 @@ h2 {
 
 p, a, button {
   font-family: var(--text);
-  font-size: 2vw;
+  font-size: calc(1vw + 1vh);
 }

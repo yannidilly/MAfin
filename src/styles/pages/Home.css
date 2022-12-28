@@ -22,7 +22,7 @@
   background-position: bottom;
   background-size: 150%;
   padding-top: 2rem;
-  height: 40vw;
+  height: calc(35vw + 5vh);
 }
 
 .about-section {

@@ -36,7 +36,7 @@ function Home() {
           </div>
         </div>
       </section>
-      <section className="services-list">
+      <section className="services-list-section">
         <div className="service-div">
           <img src="https://img.icons8.com/pastel-glyph/64/null/financial-analytics.png" alt="icone BPO" />
           <h2>BPO - Business Process Outsourcing</h2>
@@ -51,7 +51,7 @@ function Home() {
           <p>
             Usando um método simples e descomplicado, o empreendedor vai organizar suas finanças de uma maneira rápida, para ter mais tempo para focar no que importa.
           </p>
-          <button type="button">Saiba mais</button>
+          <button type="button"><a href="https://michelleabritta.com.br/dfmei-tp97">Saiba mais</a></button>
         </div>
         <div className="service-div">
           <img src="https://img.icons8.com/pastel-glyph/64/null/stocks-growth.png" alt="icone assessoria empresarial financeira" />
@@ -59,6 +59,9 @@ function Home() {
           <p>Ajudo você a organizar a sua empresa.</p>
           <p>Seja na estruturação de processos e formalização, seja na gestão das finanças da sua empresa.</p>
         </div>
+      </section>
+      <section className="contact-section">
+        <p>teste</p>
       </section>
     </div>
   );

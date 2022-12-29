@@ -1,4 +1,4 @@
-.intro-section-home {
+.intro-section {
   align-items: flex-end;
   display: flex;
   justify-content: space-around;
@@ -16,7 +16,11 @@
   width: 45%;
 }
 
-.intro-section-home img {
+.intro-section h2 {
+  font-size: calc(1.5vw + 1.5vh);
+}
+
+.intro-section img {
   background-image: url('../../images/background-shape.svg');
   background-repeat: no-repeat;
   background-position: bottom;
@@ -35,7 +39,6 @@
 }
 
 .about-section h2 {
-  font-size: calc(4vh - 0.1vw);
   text-align: center;
 }
 
@@ -61,4 +64,18 @@
 
 .about-section-content-text-div p {
   margin: 0;
+}
+
+.services-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 2rem 0;
+}
+
+.service-div {
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.15);
+  max-width: 350px;
+  padding: 1.5rem;
+  margin: 1rem;
 }

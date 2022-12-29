@@ -9,7 +9,7 @@ function Home() {
   return (
     <div className="home-div">
       <Header />
-      <section className="intro-section-home">
+      <section className="intro-section">
         <div className="intro-text">
           <h1>
             Te ajudo a colocar suas finanças
@@ -44,8 +44,13 @@ function Home() {
         </div>
         <div className="service-div">
           <img src="" alt="icone treinamento de gestão financeira para MEI" />
-          <h2>Treinamento em gestão financeira para Microempreendedores (MEI)</h2>
-          <p>Ensinamos microempreendedores a fazerem a gestão financeira do seu próprio negócio com um método simples e descomplicado, que ajuda o empreendedor a organizar suas finanças de uma maneira rápida, para ter mais tempo para focar no que importa.</p>
+          <h2>Treinamento para Microempreendedores</h2>
+          <p>
+            Ensino microempreendedores a fazerem a gestão financeira do seu próprio negócio.
+          </p>
+          <p>
+            Usando um método simples e descomplicado, o empreendedor vai organizar suas finanças de uma maneira rápida, para ter mais tempo para focar no que importa.
+          </p>
           <button type="button">Saiba mais</button>
         </div>
         <div className="service-div">

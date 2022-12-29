@@ -33,7 +33,16 @@ h2 {
   font-size: calc(4vh - 0.1vw);
 }
 
-p, a, button {
+p, a {
   font-family: var(--text);
   font-size: calc(3.5vh - 0.1vw);
+}
+
+button {
+  background-color: #ff965d2c;
+  border-radius: 5px;
+  color: var(--dark);
+  font-family: var(--text);
+  font-size: calc(3vh - 0.1vw);
+  padding: 5px 15px;
 }

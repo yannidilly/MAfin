@@ -38,12 +38,12 @@ function Home() {
       </section>
       <section className="services-list">
         <div className="service-div">
-          <img src="" alt="icone BPO" />
+          <img src="https://img.icons8.com/pastel-glyph/64/null/analytics.png" alt="icone BPO" />
           <h2>BPO - Business Process Outsourcing</h2>
           <p>Gestão financeira para empresas, garantindo os fluxos operacionais com eficência, te proporcionando tranquilidade para focar naquilo que importa: o crescimento do seu negócio.</p>
         </div>
         <div className="service-div">
-          <img src="" alt="icone treinamento de gestão financeira para MEI" />
+          <img src="https://img.icons8.com/pastel-glyph/64/null/personal-growth--v1.png" alt="icone treinamento de gestão financeira para MEI" />
           <h2>Treinamento para Microempreendedores</h2>
           <p>
             Ensino microempreendedores a fazerem a gestão financeira do seu próprio negócio.
@@ -54,7 +54,7 @@ function Home() {
           <button type="button">Saiba mais</button>
         </div>
         <div className="service-div">
-          <img src="" alt="icone assessoria empresarial financeira" />
+          <img src="https://img.icons8.com/pastel-glyph/64/null/stocks-growth.png" alt="icone assessoria empresarial financeira" />
           <h2>Assessoria empresarial e financeira</h2>
           <p>Ajudo você a organizar a sua empresa.</p>
           <p>Seja na estruturação de processos e formalização, seja na gestão das finanças da sua empresa.</p>

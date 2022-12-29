@@ -83,3 +83,33 @@
 .service-div button a {
   all: unset;
 }
+
+.contact-section {
+  background-color: #ff965d2c;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1rem 3rem;
+}
+
+.contact-section img {
+  border-radius: 1rem 0;
+  height: calc(50vh - 0.5vw);
+}
+
+.contact-section div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: calc(50vw + 15vh);
+  width: calc(95% + 5vh);
+}
+
+.contact-section div button {
+  align-self: center;
+}
+
+.contact-section div button a {
+  all: unset;
+}

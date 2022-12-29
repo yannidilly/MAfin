@@ -2,6 +2,7 @@
 import React from 'react';
 import PhotoSmiling from '../images/personal-pictures/photo-smiling.png';
 import PhotoLecture from '../images/personal-pictures/photo-lecture.jpeg';
+import PhotoWithHandOnChin from '../images/personal-pictures/photo-with-hand-on-chin.jpeg';
 import Header from '../components/Header';
 import '../styles/pages/Home.css';
 
@@ -20,7 +21,7 @@ function Home() {
           </h1>
           <h2>... e você já vai começar a ver a diferença em menos de 30 dias</h2>
         </div>
-        <img src={ PhotoSmiling } alt="foto Michelle Abritta" />
+        <img src={ PhotoSmiling } alt="foto apresentação Michelle Abritta" />
       </section>
       <section className="about-section">
         <h2>Sobre mim</h2>
@@ -61,7 +62,12 @@ function Home() {
         </div>
       </section>
       <section className="contact-section">
-        <p>teste</p>
+        <img src={ PhotoWithHandOnChin } alt="foto Michelle Abritta olhando para câmera" />
+        <div>
+          <h2>Quer descobrir como posso te ajudar?</h2>
+          <p>Entre em contato agora clicando no botão abaixo para que eu possa entender mais sobre você ou sua empresa e te ajudar a colocar suas finanças em ordem!</p>
+          <button type="button"><a href="https://api.whatsapp.com/send?phone=553299593739&text=Ei%2C%20vi%20seu%20site%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento%20sobre%20de%20seus%20servi%C3%A7os.">Entrar em contato</a></button>
+        </div>
       </section>
     </div>
   );

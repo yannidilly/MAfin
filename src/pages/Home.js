@@ -36,6 +36,25 @@ function Home() {
           </div>
         </div>
       </section>
+      <section className="services-list">
+        <div className="service-div">
+          <img src="" alt="icone BPO" />
+          <h2>BPO - Business Process Outsourcing</h2>
+          <p>Gestão financeira para empresas, garantindo os fluxos operacionais com eficência, te proporcionando tranquilidade para focar naquilo que importa: o crescimento do seu negócio.</p>
+        </div>
+        <div className="service-div">
+          <img src="" alt="icone treinamento de gestão financeira para MEI" />
+          <h2>Treinamento em gestão financeira para Microempreendedores (MEI)</h2>
+          <p>Ensinamos microempreendedores a fazerem a gestão financeira do seu próprio negócio com um método simples e descomplicado, que ajuda o empreendedor a organizar suas finanças de uma maneira rápida, para ter mais tempo para focar no que importa.</p>
+          <button type="button">Saiba mais</button>
+        </div>
+        <div className="service-div">
+          <img src="" alt="icone assessoria empresarial financeira" />
+          <h2>Assessoria empresarial e financeira</h2>
+          <p>Ajudo você a organizar a sua empresa.</p>
+          <p>Seja na estruturação de processos e formalização, seja na gestão das finanças da sua empresa.</p>
+        </div>
+      </section>
     </div>
   );
 }

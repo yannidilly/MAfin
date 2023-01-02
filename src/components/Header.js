@@ -1,6 +1,7 @@
 import React from 'react';
-import Logo from '../images/logo.png';
-import '../styles/Header.css';
+import Logo from
+  '../images/visual-identity/yellow-and-pink-logo-transparent-background.png';
+import '../styles/components/Header.css';
 
 function Header() {
   return (

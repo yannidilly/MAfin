@@ -1,7 +1,8 @@
 {
-  "name": "foton-website",
+  "name": "mafin",
   "version": "0.1.0",
-  "private": true,
+  "homepage": "http://yannidilly.github.io/mafin",
+  "private": false,
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

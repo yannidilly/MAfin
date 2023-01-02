@@ -2,6 +2,7 @@
   background-color: var(--dark);
   display: flex;
   justify-content: center;
+  gap: 1vw;
   position: sticky;
   top: 0;
   z-index: 1;
@@ -22,5 +23,5 @@
 .nav-header a {
   color: var(--light);
   text-decoration: none;
-  font-size: calc(1.2vw + 1vh);
+  font-size: calc(1vw + 1vh + 4px);
 }

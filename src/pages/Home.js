@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
+/* eslint-disable jsx-a11y/anchor-has-content */
 /* eslint-disable max-len */
 import React from 'react';
 import PhotoSmiling from '../images/personal-pictures/photo-smiling.png';
@@ -19,6 +21,7 @@ function Home() {
             {' '}
             em ordem...
           </h1>
+          <a name="about" />
           <h2>... e você já vai começar a ver a diferença em menos de 30 dias</h2>
         </div>
         <img src={ PhotoSmiling } alt="foto apresentação Michelle Abritta" />
@@ -36,6 +39,7 @@ function Home() {
             </p>
           </div>
         </div>
+        <a name="works" />
       </section>
       <section className="services-list-section">
         <div className="service-div">

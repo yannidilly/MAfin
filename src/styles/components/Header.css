@@ -15,11 +15,12 @@
   align-items: center;
   display: flex;
   justify-content: end;
+  gap: 1rem;
   width: 65%;
 }
 
 .nav-header a {
   color: var(--light);
   text-decoration: none;
-  padding: 0 60px;
+  font-size: calc(1.5vw + 1vh);
 }

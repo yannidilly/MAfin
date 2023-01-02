@@ -2,6 +2,7 @@
   background-color: var(--dark);
   display: flex;
   justify-content: center;
+  gap: 1vw;
   position: sticky;
   top: 0;
   z-index: 1;
@@ -15,11 +16,12 @@
   align-items: center;
   display: flex;
   justify-content: end;
+  gap: calc(10vw - 2vh);
   width: 65%;
 }
 
 .nav-header a {
   color: var(--light);
   text-decoration: none;
-  padding: 0 60px;
+  font-size: calc(1vw + 1vh + 4px);
 }

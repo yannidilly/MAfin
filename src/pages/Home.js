@@ -45,7 +45,7 @@ function Home() {
         <div className="service-div">
           <img src="https://img.icons8.com/pastel-glyph/64/null/financial-analytics.png" alt="icone BPO" />
           <h2>BPO - Business Process Outsourcing</h2>
-          <p>Gestão financeira para empresas, garantindo os fluxos operacionais com eficência, te proporcionando tranquilidade para focar naquilo que importa: o crescimento do seu negócio.</p>
+          <p>Gestão financeira para empresas, garantindo os fluxos operacionais com eficiência, te proporcionando tranquilidade para focar naquilo que importa: o crescimento do seu negócio.</p>
         </div>
         <div className="service-div">
           <img src="https://img.icons8.com/pastel-glyph/64/null/exhibitor--v2.png" alt="icone treinamento de gestão financeira para MEI" />

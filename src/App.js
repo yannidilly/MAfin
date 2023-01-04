@@ -7,7 +7,7 @@ class App extends Component {
     return (
       <BrowserRouter>
         <Switch>
-          <Route exact path="/" component={ Home } />
+          <Route exact path="/mafin" component={ Home } />
         </Switch>
       </BrowserRouter>
     );
